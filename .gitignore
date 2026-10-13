@@ -1,0 +1,28 @@
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache and test files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Bundled tools
+jdk-17/
+hadoop/
+
+# Backup and editor files
+app.py.bak
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large datasets - temporarily exclude
+data/raw/
+data/processed/
